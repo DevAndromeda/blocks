@@ -1,0 +1,23 @@
+name: Metadata
+
+on:
+  push:
+    branches:
+    - 'main'
+
+jobs:
+  docs:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: install node v16
+      uses: actions/setup-node@master
+      with:
+        node-version: 16
+    - name: npm install
+      run: npm install
+    - name: deploy docs
+      uses: ./.github/actions/meta
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
