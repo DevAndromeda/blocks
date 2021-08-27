@@ -17,7 +17,7 @@ jobs:
         node-version: 16
     - name: npm install
       run: npm install
-    - name: deploy metadata
-      uses: ./.github/actions/meta
+    - name: Action Blocks
+      uses: scratch-for-discord/action-blocks@1.0.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

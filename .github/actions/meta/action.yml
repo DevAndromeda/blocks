@@ -1,5 +1,0 @@
-name: 'Global Meta'
-description: 'Deploys global metadata.'
-runs:
-  using: 'node12'
-  main: 'src/index.js'
