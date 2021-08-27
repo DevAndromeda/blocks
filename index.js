@@ -24,6 +24,15 @@ const load = (id) => {
     }
 };
 
+const loadFile = (id) => {
+    try {
+        const data = fs.readFileSync(id, { encoding: "utf-8" });
+        return data;
+    } catch {
+        return null;
+    }
+};
+
 function verifyMeta(path) {
     const metadata = load(path);
     if (!metadata) return { verified: false, data: metadata };
@@ -80,6 +89,7 @@ function checkBlocks() {
         const finalMeta = {
             info: meta.data,
             blocks: [],
+            readme: loadFile(`${BLOCKS_PATH}/${_block}/README.md`),
             timestamp: Date.now(),
             path: `/blocks/${_block}`
         };

@@ -47,7 +47,8 @@
         "file_path": "/blocks/std/data/console-log.json"
       }
     ],
-    "timestamp": 1630044004693,
+    "readme": "# Standard Blocks\r\n\r\nList of standard blocks for Scratch For Discord.\r\n\r\n## Blocks Available\r\n\r\n- `console-log`\r\n  Prints something in console.\r\n- `console-error`\r\n- Prints something as error message.\r\n\r\n©️ Created by **Scratch For Discord**",
+    "timestamp": 1630044289893,
     "path": "/blocks/std"
   }
 ]
