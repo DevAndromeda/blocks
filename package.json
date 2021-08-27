@@ -1,0 +1,25 @@
+{
+  "name": "@scratch-for-discord/blocks",
+  "version": "1.0.0",
+  "description": "List of third party scratch blocks for Scratch For Discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scratch-for-discord/blocks.git"
+  },
+  "keywords": [
+    "scratch"
+  ],
+  "author": "Scratch For Discord",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scratch-for-discord/blocks/issues"
+  },
+  "homepage": "https://github.com/scratch-for-discord/blocks#readme",
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}

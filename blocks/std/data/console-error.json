@@ -1,0 +1,13 @@
+{
+    "name": "Console Error",
+    "description": "Print something as error message",
+    "args": [
+        {
+            "name": "TEXT",
+            "type": "input_value",
+            "check": "String"
+        }
+    ],
+    "color": "#217AFF",
+    "code": "console.error($TEXT)"
+}

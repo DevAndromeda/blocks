@@ -1,0 +1,53 @@
+[
+	{
+		"info": {
+			"name": "Standard Blocks",
+			"description": "List of standard blocks for Scratch For Discord.",
+			"version": "1.0.0",
+			"icon": "icon.png",
+			"author": {
+				"name": "Scratch For Discord",
+				"url": "https://github.com/scratch-for-discord"
+			},
+			"tags": [
+				"blocks",
+				"console",
+				"scratch",
+				"discord",
+				"scratch-for-discord"
+			]
+		},
+		"blocks": [
+			{
+				"name": "Console Error",
+				"description": "Print something as error message",
+				"args": [
+					{
+						"name": "TEXT",
+						"type": "input_value",
+						"check": "String"
+					}
+				],
+				"color": "#217AFF",
+				"code": "console.error($TEXT)",
+				"file_path": "/blocks/std/data/console-error.json"
+			},
+			{
+				"name": "Console Log",
+				"description": "Print something",
+				"args": [
+					{
+						"name": "TEXT",
+						"type": "input_value",
+						"check": "String"
+					}
+				],
+				"color": "#217AFF",
+				"code": "console.log($TEXT)",
+				"file_path": "/blocks/std/data/console-log.json"
+			}
+		],
+		"timestamp": 1630043707366,
+		"path": "/blocks/std"
+	}
+]

@@ -1,0 +1,13 @@
+{
+    "name": "Console Log",
+    "description": "Print something",
+    "args": [
+        {
+            "name": "TEXT",
+            "type": "input_value",
+            "check": "String"
+        }
+    ],
+    "color": "#217AFF",
+    "code": "console.log($TEXT)"
+}
