@@ -60,6 +60,7 @@ function verifyBlock(path) {
 }
 
 function checkBlocks() {
+    console.log("Scanning blocks...");
     const blocks = (fs.readdirSync(BLOCKS_PATH) || []), invalid = [], valid = [];
 
     for (const _block of blocks) {
