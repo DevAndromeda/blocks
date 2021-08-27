@@ -1,0 +1,15 @@
+{
+  "name": "Comment",
+  "description": "An example block for Scratch For Discord",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "author": {
+    "name": "DevAndromeda",
+    "url": "https://snowflakedev.org"
+  },
+  "tags": [
+    "comment",
+    "block",
+    "scratch"
+  ]
+}
