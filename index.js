@@ -133,7 +133,7 @@ async function remove(path) {
 }
 
 function makeGlobalData(blocks = []) {
-    const data = JSON.stringify(blocks.sort((a, b) => a.info.name.localeCompare(b.info.name)), null, "  ");
+    const data = JSON.stringify(blocks.sort((a, b) => a.info.name.localeCompare(b.info.name)));
     fs.writeFile(GLOBAL_PATH, data, (err) => {
         if (err) console.error(err);
         else console.log("Generated global metadata!");
