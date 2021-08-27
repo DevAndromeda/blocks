@@ -93,7 +93,7 @@ function checkBlocks() {
             readme: loadFile(`${BLOCKS_PATH}/${_block}/README.md`),
             timestamp: Date.now(),
             path: `/blocks/${_block}`,
-            icon: `https://raw.githubusercontent.com/scratch-for-discord/blocks/main/blocks/${_block}/${meta.data.icon || "icon"}.png`
+            icon: `https://raw.githubusercontent.com/scratch-for-discord/blocks/main/blocks/${_block}/${meta.data.icon || "icon.png"}`
         };
 
         for (const blockExt of blockData) {
