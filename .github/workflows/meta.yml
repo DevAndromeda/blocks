@@ -18,6 +18,6 @@ jobs:
     - name: npm install
       run: npm install
     - name: Action Blocks
-      uses: scratch-for-discord/action-blocks@1.0.0
+      uses: scratch-for-discord/action-blocks@1.0.1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
