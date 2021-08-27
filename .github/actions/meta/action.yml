@@ -1,0 +1,5 @@
+name: 'Global Meta'
+description: 'Deploys global metadata.'
+runs:
+  using: 'node16'
+  main: 'src/index.js'
