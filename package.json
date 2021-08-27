@@ -4,7 +4,7 @@
   "description": "List of third party scratch blocks for Scratch For Discord.",
   "main": "index.js",
   "scripts": {
-    "test": "node ."
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
