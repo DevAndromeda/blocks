@@ -8,6 +8,6 @@
             "check": "String"
         }
     ],
-    "color": "#217AFF",
+    "color": "#ED4245",
     "code": "console.error($TEXT)"
 }

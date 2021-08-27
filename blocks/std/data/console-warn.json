@@ -1,0 +1,13 @@
+{
+    "name": "Console Warn",
+    "description": "Print something as warning message",
+    "args": [
+        {
+            "name": "TEXT",
+            "type": "input_value",
+            "check": "String"
+        }
+    ],
+    "color": "#EB459E",
+    "code": "console.warn($TEXT)"
+}
